@@ -1,0 +1,327 @@
+body{
+    background-color: #08244D;
+}
+.header{
+    background-color: #08244D;
+    display: flex; 
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-top: -2%;
+    padding-bottom: 1%;
+}
+.div{
+    display: flex;
+    align-items: center; 
+    padding-top: 2.5%;  
+    margin-left: 2%;
+}
+
+.nav ul{
+    display: flex;
+    padding-top: 50px;
+    margin-left: 560px;
+}
+ul li{
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+li a{
+    text-decoration: none;
+    margin: 29px;
+    color: white;
+}
+a:hover{
+    color: aqua;
+}
+.dropbtn {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 16.5px;
+    background-color: #08244D;
+    border: none;
+    border-radius: 12px;
+    
+  }
+  
+  .dropdown {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    display: inline-block;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    border-radius: 15px;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px white(0, 0, 0, 0.385);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {color: #00c7c4;}
+  
+  .dropdown:hover .dropdown-content {display: block}
+  
+  .dropdown:hover .dropbtn {background-color: #FFAA00}
+
+.div img{
+    width: 70px;
+    height: 70px;
+    border-radius: 75px;
+}
+.div h3{
+    color: white;
+    margin-left: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flex h1{
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    font-weight: 700;
+    font-size: 400%;
+}
+.shape .rectangle{
+    height: 40px;
+    width: 200px;
+    margin-left: 5.7%;
+    margin-top: -5.6%;
+    background-color: #FF9000;
+}
+.shape .circle{
+    height: 50px;
+    width: 50px;
+    margin-left: 3.3%;
+    margin-top: -0.3%;
+    background-color: #FF9000;
+    border-radius: 50%;
+}
+main h5{
+    color: white;
+    font-size: 100%;
+    margin-left: 5%;
+}
+.title h3{
+    padding-top: 3%;
+    color: white;
+    text-align: center;
+    font-size: 170%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.At li{
+    color: white;
+    font-family: 'Arimo';   
+}
+.At li:hover{
+    color: aqua;
+}
+.title .Services{
+    color: white;
+    font-family: 'Arimo';
+}
+
+.Services li:hover{
+    color: aqua;
+}
+.title .WhyChooseUs{
+    color: white;
+    font-family: 'Arimo';
+}
+.WhyChooseUs li:hover{
+    color: aqua;
+}
+.flex2{
+    display: flex;
+    margin-top: 2%;
+    text-align: justify;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: larger;
+    padding-bottom: 5%;
+}
+.img1{
+    height: 40%;
+    width: 25%;
+    border-radius: 10%;
+    margin-right: -14.5%;
+}
+.img2{
+    height: 40%;
+    width: 13.4%;
+    border-radius: 10%;
+    
+
+}
+.img3{
+    height: 40%;
+    width: 29.5%;
+    border-radius: 10%;
+    margin-left: -14.5%;
+
+}
+.Images{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.background{
+    border: 10px dashed #054C84;
+    padding: 9%;
+    margin-top: -19%;
+    margin-left: 14%;
+    margin-right: 14%;
+    background-color: #054C84;
+    border-radius: 30px;
+}
+.information{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 5%;
+    padding-left: 25%;
+    font-size:larger;
+    text-justify: distribute;
+}
+footer{
+    padding-top: 5%;
+    color: white;
+    display: flex;
+    padding-top: 10%;
+    justify-content: space-evenly;
+
+}
+.Navigation{
+    list-style: none;
+}
+.Navigation li:hover{
+    color: aqua;
+}
+.Address img{
+    height: 25px;
+    width: 20px;
+    padding-top: 20%;
+    padding-right: 3%;
+}
+.Address{
+    display: flex;
+    margin-top: -1%;
+}
+.Address p:hover{
+    color: aqua;
+}
+footer .Contact{
+    list-style: none;
+}
+.Contact li:hover{
+    color: aqua;
+}
+.footer2{
+    padding-top: 2%;
+    color: white;
+    text-align: center;
+    font-size: x-small;
+}
+/*
+@media (min-width: 475px) {
+    
+    .header .nav{
+        margin-left: -410px;
+    }
+    .nav .abtus{
+        margin-left: -9%;
+    }
+    .nav .services{
+        margin-left: -9%;
+    }
+    .nav .home{
+        margin-left: -9%;
+    }
+    .flex .rectangle{
+        margin-top: -95px;
+    }
+    .div img{
+        height: 60px;
+        width: 60px;
+    }
+    .flex .circle{
+        margin-left: 10px;
+        height: 30px;
+        width: 30px;
+    }
+    .flex2 {
+        padding-top: 3%;
+    }
+    .title h3{
+        margin-left: -100px;
+        margin-right: -450px;
+        color: #FF9000;
+    }
+    .flex2 .At{
+        margin: 20%;
+        
+    }
+    .Services .servtitle{
+        margin-left: -6.5%;
+    }   
+    .flex2 .Services{
+       
+    }
+    .flex2 .WhyChooseUs{
+       
+    }
+    .Images .img1{
+        height: 200px;
+        width: 200px;
+        margin-left: 35%;
+        margin-right: -2%;
+        padding-bottom: 2%;
+        
+    }
+    .Images .img2{
+        height: 200px;
+        width: 200px;
+        margin-left: 9%;
+    }
+    .Images .img3{
+        height: 200px;
+        width: 200px;
+        margin-left: 2.5%;
+        margin-right: -20%;
+    }
+    
+    
+
+
+
+} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
+

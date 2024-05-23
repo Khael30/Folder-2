@@ -1,0 +1,192 @@
+main {
+    background-color: white;
+}
+
+
+.header{
+    background-color: #08244D;
+    display: flex; 
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-top: -2%;
+    padding-bottom: 1%;
+}
+.div{
+    display: flex;
+    align-items: center; 
+    padding-top: 2.5%;  
+    margin-left: 2%;
+}
+
+.nav ul{
+    display: flex;
+    padding-top: 50px;
+    margin-left: 560px;
+}
+ul li{
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+li a{
+    text-decoration: none;
+    margin: 29px;
+    color: white;
+}
+a:hover{
+    color: aqua;
+}
+.dropbtn {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 16.5px;
+    background-color: #08244D;
+    border: none;
+    border-radius: 12px;
+    
+  }
+  
+  .dropdown {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    display: inline-block;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    border-radius: 15px;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px white(0, 0, 0, 0.385);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {color: #00c7c4;}
+  
+  .dropdown:hover .dropdown-content {display: block}
+  
+  .dropdown:hover .dropbtn {background-color: #FFAA00}
+
+.div img{
+    width: 70px;
+    height: 70px;
+    border-radius: 75px;
+}
+.div h3{
+    color: white;
+    margin-left: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title_book h2{
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.title_book button{
+    margin: 5%;
+    color:#FF9000;
+    border-color: #FFAA00;
+    border-radius: 20px;
+    box-shadow: 5px 5px #888888;
+}
+.title_book{
+    display: flex;
+    justify-content: space-between;
+}
+.shape .rectangle{
+    height: 10px;
+    width: 260px;
+    margin-left: -0%;
+    margin-top: -100.6%;
+    margin-top: -4.9%;
+    background-color: #FF9000;
+}
+.Info{
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    text-justify: inter-word;}
+.Info .Abt{
+    margin-right: 40%;
+}
+
+.WWA p{
+    padding-bottom:3%;
+}
+.Info .WWA{
+    padding-top: 1%;
+}
+.OM p{
+    padding-bottom:3%;
+}
+.OV {
+    padding-bottom:3%;
+}
+.OH p{
+    padding-bottom:3%;
+}
+.OfficeHours img{
+    height: 40%;
+    width: 30%;
+    border-radius: 50px;
+    border: #3669A4 solid 5px  ;
+}
+.OfficeHours{
+    display:flex;
+    list-style: none;
+    
+}
+.Contact{
+    margin-left: 2%;
+} 
+
+footer{
+    padding-top: 5%;
+    display: flex;
+    padding-top: 10%;
+    justify-content: space-evenly;
+
+}
+.Navigation{
+    list-style: none;
+}
+.Navigation li:hover{
+    color: aqua;
+}
+.Address img{
+    height: 25px;
+    width: 20px;
+    padding-top: 20%;
+    padding-right: 3%;
+    
+}
+.Address{
+    display: flex;
+    margin-top: -1%;
+}
+.Address p:hover{
+    color: aqua;
+}
+footer .Contact{
+    list-style: none;
+}
+.Contact li:hover{
+    color: aqua;
+}
+.footer2{
+    padding-top: 2%;
+    text-align: center;
+    font-size: x-small;
+}
